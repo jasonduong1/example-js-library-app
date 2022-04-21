@@ -29,3 +29,11 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 </style>
+<script>
+import Darkmode from "darkmode-js";
+export default {
+  mounted: function () {
+    new Darkmode().showWidget();
+  },
+};
+</script>
